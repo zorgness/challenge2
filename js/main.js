@@ -32,6 +32,10 @@ const fetchLookupData = async (id) => {
   }
 };
 
+const reload = () => {
+  window.location.reload();
+}
+
 const root = document.querySelector('.drinks-container');
 const lookup = document.querySelector('.lookup-container');
 
